@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Portfolio', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Welcoome to my portfolio', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -30,52 +30,55 @@ export const projectsData = [
     id: nanoid(),
     img: 'meetup.png',
     title: 'Meetup',
-    info: '',
-    info2: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    info: 'Meetup is a library made in Laravel, that allows technically unfamiliar users to easily make their own meetup application where they can add new meetups and assign speakers to them.',
+    info2:
+      'This is an internship project. I work on a team of five and I am responsible for UX/UI and frontend.',
+    repo: 'https://github.com/blumilksoftware/meetup', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'notes.png',
     title: 'Notes',
-    info: '',
+    info: 'Notes is an application that allows users to take notes. It is a full stack application with client made in React and server made in Strapi.',
     info2: '',
     url: 'https://react-strapi-notes-app.netlify.app/',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/JakubZakowicz/notes-app', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'rick_and_morty.png',
     title: 'Rick and Morty Website in Gatsby',
-    info: '',
+    info: 'This website is made in Gatsby, where in comparison to its React version this website is statically generated in build time, in order to make this website faster and more efficient.',
     info2: '',
     url: 'https://gatsby-rick-and-morty-graphql.netlify.app/',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/JakubZakowicz/gatsby-rick-and-morty-graphql', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'rick_and_morty.png',
     title: 'Rick and Morty Website in React',
-    info: '',
-    info2: '',
+    info: 'This is a website that displays information about characters, episodes and locations from one of the most popular and beloved (by my included) TV shows called "Rick and Morty".',
+    info2:
+      'This website is made with React. Chakra UI library is used to style this website and data are fetched from the GraphQL API with help of Apollo Client.',
     url: 'https://react-rick-and-morty-graphql.netlify.app/',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/JakubZakowicz/react-rick-and-morty-graphql', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'building_designing.png',
     title: 'Building Designing Landing Page',
-    info: '',
+    info: 'This landing page is a clone of a free wordpress template made in Gatsby.',
     info2: '',
     url: 'https://gatsby-building-designing-landing-page.netlify.app/',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/JakubZakowicz/gatsby-building-designing-landing-page', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'mastermind.png',
     title: 'Mastermind',
-    info: '',
-    info2: '',
+    info: 'The main objective of this game is to guess the secret code in the limited number of attempts.',
+    info2:
+      'This game is made in vanilla Javascript. This is my first project after learning javascript for three weeks.',
     url: 'https://mastermind-javascript.netlify.app/',
     repo: 'https://github.com/JakubZakowicz/javascript-simple-games/tree/main/MasterMind', // if no repo, the button will not show up
   },
