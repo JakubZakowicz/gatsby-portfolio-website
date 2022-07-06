@@ -7,7 +7,6 @@ const Contact = () => (
   <section id="contact">
     <Container>
       <Title title="Contact" />
-
       <Fade bottom duration={1000} delay={800} distance="30px">
         <div className="contact-wrapper">
           <Form
@@ -15,6 +14,7 @@ const Contact = () => (
             action="https://formsubmit.co/j.zakowicz99@gmail.com"
             method="post"
           >
+            <Form.Control type="hidden" name="_captcha" value="false" />
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Control
                 className="contact-wrapper__input"
