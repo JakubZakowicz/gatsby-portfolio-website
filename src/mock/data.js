@@ -98,13 +98,8 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      name: 'facebook',
+      url: 'https://www.facebook.com/jakub.zakowicz/',
     },
     {
       id: nanoid(),
@@ -114,7 +109,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/JakubZakowicz',
     },
   ],
 };

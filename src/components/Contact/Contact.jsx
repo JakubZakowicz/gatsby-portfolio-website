@@ -38,7 +38,7 @@ const Contact = () => (
                 className="contact-wrapper__input"
                 size="lg"
                 type="text"
-                name="subject"
+                name="_subject"
                 placeholder="Subject"
               />
             </Form.Group>
