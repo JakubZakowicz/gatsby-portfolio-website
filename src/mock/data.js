@@ -10,7 +10,7 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
+  name: 'Jakub',
   subtitle: '',
   cta: '',
 };
@@ -18,9 +18,11 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne:
+    'I am a Computer Science Student who loves coding, solving problems, and learning new things. Always looking for new chalenges.',
+  paragraphTwo:
+    'I am passionate about Web development, and my favourite technologies are React, Gatsby and GraphQL.',
+  paragraphThree: 'In my free time I like reading books, learning foreign languages and sport.',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -48,7 +50,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'rick_and_morty.png',
     title: 'Rick and Morty Website in Gatsby',
-    info: 'This website is made in Gatsby, where in comparison to its React version this website is statically generated in build time, in order to make this website faster and more efficient.',
+    info: 'This website is made in Gatsby, where in comparison to its React version this website is statically generated, in order to make this website faster and more efficient.',
     info2: '',
     url: 'https://gatsby-rick-and-morty-graphql.netlify.app/',
     repo: 'https://github.com/JakubZakowicz/gatsby-rick-and-morty-graphql', // if no repo, the button will not show up
