@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Jakub',
-  subtitle: '',
+  subtitle: 'Welcome to my Portofolio.',
   cta: '',
 };
 
@@ -104,7 +104,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/jakub-zakowicz-109679244/',
     },
     {
       id: nanoid(),
@@ -116,5 +116,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
