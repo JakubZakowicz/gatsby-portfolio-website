@@ -4,12 +4,12 @@ This portofio website consists of my personal projects that are supposed to show
 I used [gatsby-simplefolio](https://github.com/cobiwave/gatsby-simplefolio) as a template, which I modified a little myself.
 
 ## Demo
-Link to working demo: https://gatsby-personal-portfolio.netlify.app/
+Link to working demo: https://jakubzakowicz.netlify.app/
 
 ## Setup
 ```shell
 # Clone this repository
-$ git clone https://jakubzakowicz.netlify.app/
+$ git clone https://github.com/JakubZakowicz/gatsby-portfolio-website.git
 
 # Go into the repository
 $ cd gatsby-portfolio-website
