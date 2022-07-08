@@ -9,7 +9,7 @@ Link to working demo: https://gatsby-personal-portfolio.netlify.app/
 ## Setup
 ```shell
 # Clone this repository
-$ git clone https://github.com/JakubZakowicz/gatsby-portfolio-website.git
+$ git clone https://jakubzakowicz.netlify.app/
 
 # Go into the repository
 $ cd gatsby-portfolio-website
