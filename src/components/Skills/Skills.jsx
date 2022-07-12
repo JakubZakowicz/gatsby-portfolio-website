@@ -68,23 +68,23 @@ const Skills = () => {
             <div className="skills-wrapper__image">
               <StaticImage
                 alt="skill picture"
-                src="../../images/redux.png"
-                width="220"
-                height="200"
-              />
-            </div>
-            <p className="skills-wrapper__text">Redux</p>
-          </div>
-          <div className="skills-wrapper__skill">
-            <div className="skills-wrapper__image">
-              <StaticImage
-                alt="skill picture"
                 src="../../images/gatsby.png"
                 width="200"
                 height="200"
               />
             </div>
             <p className="skills-wrapper__text">Gatsby</p>
+          </div>
+          <div className="skills-wrapper__skill">
+            <div className="skills-wrapper__image">
+              <StaticImage
+                alt="skill picture"
+                src="../../images/graphql.png"
+                width="200"
+                height="200"
+              />
+            </div>
+            <p className="skills-wrapper__text">GraphQL</p>
           </div>
           <div className="skills-wrapper__skill">
             <div className="skills-wrapper__image">

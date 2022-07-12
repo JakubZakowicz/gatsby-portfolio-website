@@ -23,6 +23,10 @@
       padding-bottom: 5rem;
     }
 
+    &__column {
+      margin: 0 auto;
+    }
+
     &__image {
       display: flex;
       height: 100%;
@@ -48,7 +52,7 @@
       }
 
       &-text {
-        text-align: left;
+        text-align: center;
 
         @include respond(tab-port) {
           font-size: 1.5rem;
