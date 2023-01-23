@@ -35,17 +35,6 @@ const Skills = () => {
             <div className="skills-wrapper__image">
               <StaticImage
                 alt="skill picture"
-                src="../../images/javascript.png"
-                width="200"
-                height="200"
-              />
-            </div>
-            <p className="skills-wrapper__text">JavaScript</p>
-          </div>
-          <div className="skills-wrapper__skill">
-            <div className="skills-wrapper__image">
-              <StaticImage
-                alt="skill picture"
                 src="../../images/typescript.png"
                 width="200"
                 height="200"
@@ -63,6 +52,17 @@ const Skills = () => {
               />
             </div>
             <p className="skills-wrapper__text">React</p>
+          </div>
+          <div className="skills-wrapper__skill">
+            <div className="skills-wrapper__image">
+              <StaticImage
+                alt="skill picture"
+                src="../../images/nextjs.png"
+                width="200"
+                height="200"
+              />
+            </div>
+            <p className="skills-wrapper__text">Next.js</p>
           </div>
           <div className="skills-wrapper__skill">
             <div className="skills-wrapper__image">

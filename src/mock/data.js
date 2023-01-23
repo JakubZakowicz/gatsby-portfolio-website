@@ -30,6 +30,16 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'timetable.png',
+    title: 'College Timetable',
+    info: 'Timetable made for college which I attend.',
+    info2:
+      'This is a fullstack team project with frontend made in React and backend in Laravel. Data is scraped from the official timetable site.',
+    url: 'https://plan.collegiumwitelona.com.pl/',
+    repo: 'https://github.com/scrap-masters/frontend', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'meetup.png',
     title: 'Meetup',
     info: 'Meetup is a library made in Laravel, that allows technically unfamiliar users to easily make their own meetup application where they can add new meetups and assign speakers to them.',
@@ -73,16 +83,6 @@ export const projectsData = [
     info2: '',
     url: 'https://gatsby-building-designing-landing-page.netlify.app/',
     repo: 'https://github.com/JakubZakowicz/gatsby-building-designing-landing-page', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'mastermind.png',
-    title: 'Mastermind',
-    info: 'The main objective of this game is to guess the secret code in the limited number of attempts.',
-    info2:
-      'This game is made in vanilla Javascript. This is my first project after learning javascript for three weeks.',
-    url: 'https://mastermind-javascript.netlify.app/',
-    repo: 'https://github.com/JakubZakowicz/javascript-simple-games/tree/main/MasterMind', // if no repo, the button will not show up
   },
 ];
 
