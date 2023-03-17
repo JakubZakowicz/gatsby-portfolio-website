@@ -21,13 +21,22 @@ export const aboutData = {
   paragraphOne:
     'I am a Computer Science Student who loves coding, solving problems, and learning new things. Always looking for new chalenges.',
   paragraphTwo:
-    'I am passionate about Web development, and my favourite technologies are React, Gatsby and GraphQL.',
+    'I am passionate about Web development, and my favourite technologies are React, Next.js and GraphQL.',
   paragraphThree: 'In my free time I like reading books, learning foreign languages and sport.',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'hotel_best_app.png',
+    title: 'Hotel management system',
+    info: 'Project made for my engineering thesis. It is hotel management system that helps a hotel owner to manage his property',
+    info2: 'This is a fullstack project with frontend made in Next.js and  backend in Node.js',
+    url: 'https://best-hotel-app.vercel.app/',
+    repo: 'https://github.com/hotel-management-web-app/client', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'timetable.png',

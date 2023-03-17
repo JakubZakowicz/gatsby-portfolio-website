@@ -12,6 +12,8 @@ const Projects = () => {
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
+  const isHotelApp = (title) => title === 'Hotel management system';
+
   useEffect(() => {
     if (window.innerWidth > 769) {
       setIsDesktop(true);
@@ -49,26 +51,68 @@ const Projects = () => {
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
-                      {url && (
-                        <a
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="cta-btn cta-btn--hero"
-                          href={url || '#!'}
-                        >
-                          See Live
-                        </a>
-                      )}
-
-                      {repo && (
-                        <a
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="cta-btn text-color-main"
-                          href={repo}
-                        >
-                          Source Code
-                        </a>
+                      {isHotelApp(title) ? (
+                        <>
+                          <div className="project-wrapper__hotel__margin-top">
+                            <a
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="cta-btn cta-btn--hero project-wrapper__hotel-admin-panel"
+                              href="https://best-hotel-app.vercel.app/"
+                            >
+                              Client Side Live
+                            </a>
+                            <a
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="cta-btn cta-btn--hero project-wrapper__hotel-admin-panel"
+                              href="https://best-hotel-app.vercel.app/login"
+                            >
+                              Admin Panel Live
+                            </a>
+                          </div>
+                          <div className="project-wrapper__hotel__margin-top">
+                            <a
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="cta-btn text-color-main"
+                              href="https://github.com/hotel-management-web-app/client"
+                            >
+                              Frontend Code
+                            </a>
+                            <a
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="cta-btn text-color-main"
+                              href="https://github.com/hotel-management-web-app/server"
+                            >
+                              Backend Code
+                            </a>
+                          </div>
+                        </>
+                      ) : (
+                        <>
+                          {url && (
+                            <a
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="cta-btn cta-btn--hero"
+                              href={url || '#!'}
+                            >
+                              See Live
+                            </a>
+                          )}
+                          {repo && (
+                            <a
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="cta-btn text-color-main"
+                              href={repo}
+                            >
+                              Source Code
+                            </a>
+                          )}
+                        </>
                       )}
                     </div>
                   </Fade>
