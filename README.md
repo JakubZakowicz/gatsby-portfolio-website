@@ -4,7 +4,7 @@ This portofio website consists of my personal projects that are supposed to show
 I used [gatsby-simplefolio](https://github.com/cobiwave/gatsby-simplefolio) as a template, which I modified a little myself.
 
 ## Demo
-Link to working demo: https://jakubzakowicz.netlify.app/
+Link to working demo: https://jakubzakowicz.com
 
 ## Setup
 ```shell
