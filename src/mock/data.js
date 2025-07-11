@@ -19,10 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'me.jpg',
   paragraphOne:
-    'I am a Computer Science Student who loves coding, solving problems, and learning new things. Always looking for new chalenges.',
-  paragraphTwo:
-    'I am passionate about Web development, and my favourite technologies are React, Next.js and GraphQL.',
-  paragraphThree: 'In my free time I like reading books, learning foreign languages and sport.',
+    'Junior full‑stack developer with 1 year of hands‑on experience building web applications using React, Next.js, and Node.js. Skilled at writing clean, scalable, and secure code, and driven by a passion for continuous learning.',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
